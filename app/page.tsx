@@ -1,8 +1,8 @@
 "use client";
 
 import { useSelector, useDispatch } from "react-redux";
-import { RootState, AppDispatch } from "@/redux/store";
-import { increment, decrement, reset, setCount } from "../redux/counterSlice";
+import { RootState, AppDispatch } from "./redux/store";
+import { increment, decrement, reset, setCount } from "./redux/counterSlice";
 import { useState } from "react";
 
 export default function Home() {
